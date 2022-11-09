@@ -1,3 +1,16 @@
+#peo eelarve
+kutsutud = int(input("Mitu kutsutud: "))
+tuleb = int(input("Mitu tuleb: "))
+for i in kutsutud:
+    print(i*"65")
+
+
+#bänner
+kordus = int(input("Mitu korda kuvada: "))
+banner = input("Sisestage reklaamilause: ")
+for i in range(kordus):
+    print(banner.upper())
+
 #murelikud lapsevanemad
 mehis = int(input("pls ring arv: "))
 ring = 0
@@ -7,8 +20,6 @@ while ring<mehis:
     if ring%2==0:
         porgand+=ring
 print(f"porgand: {porgand}")
-
-
 
 #äratus
 aratus = int(input("Mitu korda äratada: "))
