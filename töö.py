@@ -11,6 +11,17 @@ banner = input("Sisestage reklaamilause: ")
 for i in range(kordus):
     print(banner.upper())
 
+#ounad
+import random
+mitu = int(input("Mitu pöialpoissi tahab õunu?: "))
+
+ounad = 0
+for i in range(mitu):
+    suv=random.randint(1,2)
+    ounad+=suv
+    print(suv)
+print(f"Alles jäi {12-ounad} õuna")
+
 #murelikud lapsevanemad
 mehis = int(input("pls ring arv: "))
 ring = 0
