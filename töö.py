@@ -1,15 +1,37 @@
 #peo eelarve
 kutsutud = int(input("Mitu kutsutud: "))
 tuleb = int(input("Mitu tuleb: "))
-for i in kutsutud:
-    print(i*"65")
+eelarve = 55
 
+print(kutsutud*eelarve)
+
+#Õunamahla tegemine
+ounad = int(input("Õunte kogus (kg): "))
+mahlapakke = round(ounad * 0.4 / 3,)
+print(mahlapakke)
 
 #bänner
 kordus = int(input("Mitu korda kuvada: "))
 banner = input("Sisestage reklaamilause: ")
 for i in range(kordus):
     print(banner.upper())
+
+#Tahvli juurde
+from datetime import *
+print(datetime.now().day-1)
+
+
+
+fail = open("edm.txt",encoding="utf-8")
+laulud = []
+
+#Jukebox
+
+#sissetulekud
+
+#jänesevanemate mure ver.3
+
+#ülikooli vastuvõetud
 
 #ounad
 import random
@@ -21,6 +43,10 @@ for i in range(mitu):
     ounad+=suv
     print(suv)
 print(f"Alles jäi {12-ounad} õuna")
+
+#male
+
+#täringud
 
 #murelikud lapsevanemad
 mehis = int(input("pls ring arv: "))
