@@ -1,3 +1,18 @@
+#kuupäev
+kuud = ("jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober", "november", "detsember")
+def kuu_nimi():
+    kuud.split(", ")
+    kuu_nimi.append(kuu_nimi)
+
+kuupaev = input("Sisesta kuupäev kujul DD.MM.YYYY: ")
+def kuupaev_sonena():
+    kuupaev.split(".")
+    kuupaev_sonena.append(kuupaev_sonena)
+
+#Mündid
+
+#Tervitused mõtisklustega
+
 #peo eelarve
 kutsutud = int(input("Mitu kutsutud: "))
 tuleb = int(input("Mitu tuleb: "))
